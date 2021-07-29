@@ -48,7 +48,7 @@ const TodoList = () => {
     return (
         <>
             <div className = "header text-center">
-                <h3>Todo List By Rahul</h3>
+                <h3>To-Do List By Rahul</h3>
                 <button className = "btn btn-primary mt-2" onClick = {() => setModal(true)} >Create Your Task Now</button>
             </div>
             <div className = "task-container">

@@ -47,7 +47,7 @@ const EditTaskPopup = ({modal, toggle, updateTask, taskObj}) => {
                 
             </ModalBody>
             <ModalFooter>
-            <Button color="primary" onClick={handleUpdate}>Update</Button>{' '}
+            <Button color="primary" onClick={handleUpdate}>Update</Button>
             <Button color="secondary" onClick={toggle}>Cancel</Button>
             </ModalFooter>
       </Modal>

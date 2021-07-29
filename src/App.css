@@ -1,20 +1,20 @@
 .header{
-  height: 200px;
-  width: 100%;
-  background-color: #E9EEF6;
-  padding-top: 50px;
-}
-.card-container{
-  height: 300px;
-  width: 300px;
-  box-shadow: 0px 3px 50px #A5A5A5;
-}
-.card-wrapper{
-  width: 232px;
-  height: 245px;
-  box-shadow: 0px 3px 18px #A5A5A5;
   display: flex;
   flex-direction: column;
+  height: 35vh;
+  width: 100%;
+  background-color: #dde7f8;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-wrapper{
+
+  height: 40vh;
+  box-shadow: 0px 3px 6px #A5A5A5;
+  display: flex;
+  flex-direction: column;
+ 
 }
 .card-top{
   width:100%;
@@ -28,6 +28,7 @@
   display: flex;
   flex-direction: column;
   position: relative;
+ 
 }
 
 .card-header{
@@ -40,11 +41,11 @@
 }
 
 .task-container{
-  height: 600px;
+  height:100%;
   display: flex;
   width: 100%;
   flex-wrap: wrap;
-  background-color: #F6F7F8;
+  background-color: #f6f7f8;
   padding:40px 100px;
   
 }
@@ -57,3 +58,4 @@
   
   
 }
+

@@ -31,7 +31,7 @@ const CreateTaskPopup = ({modal, toggle, save}) => {
         <Modal isOpen={modal} toggle={toggle}>
             <ModalHeader toggle={toggle}>Create Your Task</ModalHeader>
             <ModalBody>
-            
+                
                     <div className = "form-group">
                         <label>Enter Task Name</label>
                         <input type="text" className = "form-control" value = {taskName} onChange = {handleChange} name = "taskName"/>
@@ -43,7 +43,7 @@ const CreateTaskPopup = ({modal, toggle, save}) => {
                 
             </ModalBody>
             <ModalFooter>
-            <Button color="primary" onClick={handleSave}>Create</Button>{' '}
+            <Button color="primary" onClick={handleSave}>Create</Button>
             <Button color="secondary" onClick={toggle}>Cancel</Button>
             </ModalFooter>
       </Modal>
