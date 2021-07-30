@@ -42,6 +42,7 @@ const TodoList = () => {
         localStorage.setItem("taskList", JSON.stringify(tempList))
         setModal(false)
         setTaskList(taskList)
+        window.location.reload()
     }
 
 
